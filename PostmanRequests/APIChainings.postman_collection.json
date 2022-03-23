@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "30abe565-6d92-467d-a925-9889536e97eb",
+		"name": "APIChainings",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetToken",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "baa0a6b6-1630-4d91-bf03-e80e60636ef0",
+						"exec": [
+							"\r",
+							"pm.test(\"Your test name\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    console.log(jsonData.args.token)\r",
+							"   pm.globals.set(\"mytoken\", jsonData.args.token);\r",
+							"});\r",
+							"postman.setNextRequest(\"PostStatus\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/post?token={{$guid}}",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{$guid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostStatus",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e96b989f-65a4-4150-8710-8aa571090134",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "5ace6f2c-3905-4509-98c1-c101fa0a098c",
+						"exec": [
+							"console.log(\"Token from pre request\"+ pm.globals.get(\"mytoken\"))\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/post?token={{mytoken}}&status=postman",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{mytoken}}"
+						},
+						{
+							"key": "status",
+							"value": "postman"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

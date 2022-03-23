@@ -1,0 +1,3 @@
+ChromeDriver=C:\\Automation\\ChromeDriver86\\chromedriver.exe
+URL=https://www.w3schools.com/
+ExclePath=C:\\Automation\\workspace\\SeleniumTutorial\\Testdata\\Test.xlsx

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="Cp1252" ?>   <!--  encoding needed is UFT-8 -->
+<extentreports>
+	<configuration>
+		<theme>standard</theme>
+		<encoding>Cp1252</encoding>   <!-- needed UFT-8 -->
+		<protocol>https</protocol>
+		<documentTitle>MAPS Test Execution Report</documentTitle>
+		<reportName>Automated Test report</reportName>
+		<dateFormat>yyyy-MM-dd</dateFormat>
+		<timeFormat>HH:mm:ss</timeFormat>
+		<reportHeadline> - v1.0.0</reportHeadline>
+		<!-- custom Javascript -->
+		<scripts>
+			<![CDATA[
+				$(document).ready(function() {
+				
+				});
+			]]>		
+		</scripts>
+		
+		<!-- custom styles -->
+		<styles>
+			<![CDATA[
+			
+			]]>
+		</styles>
+	</configuration>
+
+
+
+
+
+</extentreports>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Executed SetUpSuite]]>
+    </line>
+    <line>
+      <![CDATA[Input val== 1]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68022" started-at="2021-01-30T05:23:07Z" finished-at="2021-01-30T05:24:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68022" started-at="2021-01-30T05:23:07Z" finished-at="2021-01-30T05:24:15Z">
+      <class name="com.TestCases.MyFirstTestcase">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.TestCases.MyFirstTestcase@dffdd960]" name="setupSuite" is-config="true" duration-ms="13786" started-at="2021-01-30T10:52:54Z" finished-at="2021-01-30T10:53:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executed SetUpSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.TestCases.MyFirstTestcase@dffdd960]" name="setup" is-config="true" duration-ms="29928" started-at="2021-01-30T10:53:07Z" finished-at="2021-01-30T10:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:com.TestCases.MyFirstTestcase@dffdd960]" name="TestCase1" duration-ms="19129" started-at="2021-01-30T10:53:37Z" finished-at="2021-01-30T10:53:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Input val== 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method status="PASS" signature="tearAfterMethod(org.testng.ITestResult)[pri:0, instance:com.TestCases.MyFirstTestcase@dffdd960]" name="tearAfterMethod" is-config="true" duration-ms="2879" started-at="2021-01-30T10:53:56Z" finished-at="2021-01-30T10:53:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase1 status=SUCCESS method=MyFirstTestcase.TestCase1()[pri:0, instance:com.TestCases.MyFirstTestcase@dffdd960] output=Input val== 1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearAfterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCases.MyFirstTestcase@dffdd960]" name="tearDown" is-config="true" duration-ms="16054" started-at="2021-01-30T10:53:59Z" finished-at="2021-01-30T10:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCases.MyFirstTestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3419" started-at="2020-12-17T01:11:33Z" finished-at="2020-12-17T01:11:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3419" started-at="2020-12-17T01:11:33Z" finished-at="2020-12-17T01:11:37Z">
+      <class name="com.RestPackage.RestAssuredAuth">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.RestPackage.RestAssuredAuth@41a78c33]" name="Test1" duration-ms="3376" started-at="2020-12-17T06:41:33Z" finished-at="2020-12-17T06:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- com.RestPackage.RestAssuredAuth -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

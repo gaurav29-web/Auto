@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="UnitTest.DemoProgramTests" time="1.419" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="jdk.extensions.version" value="8.0.265.0"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Automation\workspace\JacocoDemo\target\test-classes;C:\Automation\workspace\JacocoDemo\target\classes;C:\Users\grvsi\.m2\repository\org\testng\testng\6.10\testng-6.10.jar;C:\Users\grvsi\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="java.vendor.url" value="http://www.eclipse.org/openj9"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\grvsi\AppData\Local\Temp\surefire2624644394042155172\surefirebooter4018747446097417270.jar C:\Users\grvsi\AppData\Local\Temp\surefire2624644394042155172 2020-12-23T10-41-26_855-jvmRun1 surefire2828496943434101862tmp surefire_07042809472083702930tmp"/>
+    <property name="surefire.test.class.path" value="C:\Automation\workspace\JacocoDemo\target\test-classes;C:\Automation\workspace\JacocoDemo\target\classes;C:\Users\grvsi\.m2\repository\org\testng\testng\6.10\testng-6.10.jar;C:\Users\grvsi\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\grvsi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="file.separator" value="\"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="basedir" value="C:\Automation\workspace\JacocoDemo"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="surefire.real.class.path" value="C:\Users\grvsi\AppData\Local\Temp\surefire2624644394042155172\surefirebooter4018747446097417270.jar;C:\\Users\\grvsi\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar;C:\\Users\\grvsi\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\bin\compressedrefs\jclSC180\vm.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\lib\se-service.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\lib\rt.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\lib\resources.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\lib\jsse.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\lib\charsets.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\lib\jce.jar"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\bin"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.fullversion" value="1.8.0_265-b01&#10;JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20200728_776 (JIT enabled, AOT enabled)&#10;OpenJ9   - 34cf4c075&#10;OMR      - 113e54219&#10;JCL      - c82ff0c20f based on jdk8u265-b01"/>
+    <property name="java.runtime.version" value="1.8.0_265-b01"/>
+    <property name="user.name" value="grvsi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="localRepository" value="C:\Users\grvsi\.m2\repository"/>
+    <property name="java.io.tmpdir" value="C:\Users\grvsi\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_265"/>
+    <property name="com.ibm.system.agent.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\bin"/>
+    <property name="user.dir" value="C:\Automation\workspace\JacocoDemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/AdoptOpenJDK/jdk-8.0.265.01-openj9/bin/../jre/bin/j9vm;C:/Program Files/AdoptOpenJDK/jdk-8.0.265.01-openj9/bin/../jre/bin;C:/Program Files/AdoptOpenJDK/jdk-8.0.265.01-openj9/bin/../jre/lib/amd64;C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Android;C:\Windows\System32;C:\Automation\Jars\apache-ant-1.9.15\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\grvsi\AppData\Local\Microsoft\WindowsApps;C:\Users\grvsi\AppData\Local\GitHubDesktop\bin;C:\Users\grvsi\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.6.3\bin;C:\Users\grvsi\AppData\Roaming\npm;C:\Automation\eclipse;;."/>
+    <property name="java.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20200728_776 (JIT enabled, AOT enabled)&#10;OpenJ9   - 34cf4c075&#10;OMR      - 113e54219&#10;JCL      - c82ff0c20f based on jdk8u265-b01"/>
+    <property name="java.vm.version" value="openj9-0.21.0"/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-openj9\jre\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="NegativeTest" classname="UnitTest.DemoProgramTests" time="0.015">
+    <system-out><![CDATA[App is fine
+]]></system-out>
+  </testcase>
+  <testcase name="PositiveTest" classname="UnitTest.DemoProgramTests" time="0">
+    <system-out><![CDATA[App works fine
+]]></system-out>
+  </testcase>
+</testsuite>

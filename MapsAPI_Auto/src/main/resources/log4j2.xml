@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+ <Properties>
+        <Property name="BASE_PATH">logs</Property>
+        <Property name="LOGGING_LVL">info</Property>
+        <Property name="LOG_PATTERN">[%5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</Property>
+    </Properties>
+    <Appenders>
+    <RollingFile name="fileLogger" fileName="${BASE_PATH}/nsf-test.log" filePattern="${BASE_PATH}/nsf-test-%d{yyyy-MM-dd}-%i.log">
+    		 <LevelRangeFilter minLevel="${LOGGING_LVL}" maxLevel="${LOGGING_LVL}" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="19500KB" />
+            </Policies>
+        </RollingFile>
+        <Console name="console" target="SYSTEM_OUT">
+         <LevelRangeFilter minLevel="${LOGGING_LVL}" maxLevel="${LOGGING_LVL}" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout
+                pattern="${LOG_PATTERN}" />
+        </Console>
+    </Appenders>
+    <Loggers>
+     <Logger name="maps.nsf" additivity="true" level="${LOGGING_LVL}">
+            <AppenderRef ref="fileLogger" />
+            <AppenderRef ref="Console" />
+        </Logger>
+        <Root level="debug" additivity="false">
+        </Root>
+    </Loggers>
+</Configuration>

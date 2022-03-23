@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UFT-8
+encoding//src/main/resources=UFT-8
+encoding//src/test/java=UFT-8
+encoding//src/test/java/Features/Sample.feature=ISO-8859-1
+encoding//src/test/java/com/Test/TestRunner.java=ISO-8859-1
+encoding//src/test/java/com/Utility/ConvertFeatureParamsUtil.java=US-ASCII
+encoding//src/test/java/com/Utility/ResourceLoaderUtil.java=US-ASCII
+encoding//src/test/java/stepDefinitions/AlertsStepDef.java=US-ASCII
+encoding//src/test/java/stepDefinitions/TestInitialize.java=US-ASCII
+encoding//src/test/resources=UFT-8
+encoding/<project>=UFT-8

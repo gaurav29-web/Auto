@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="69" started-at="2020-12-23T05:11:31Z" finished-at="2020-12-23T05:11:31Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="69" started-at="2020-12-23T05:11:31Z" finished-at="2020-12-23T05:11:31Z">
+      <class name="UnitTest.DemoProgramTests">
+        <test-method status="PASS" signature="NegativeTest()[pri:0, instance:UnitTest.DemoProgramTests@bd3b6406]" name="NegativeTest" duration-ms="31" started-at="2020-12-23T10:41:31Z" finished-at="2020-12-23T10:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeTest -->
+        <test-method status="PASS" signature="PositiveTest()[pri:0, instance:UnitTest.DemoProgramTests@bd3b6406]" name="PositiveTest" duration-ms="0" started-at="2020-12-23T10:41:31Z" finished-at="2020-12-23T10:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PositiveTest -->
+      </class> <!-- UnitTest.DemoProgramTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

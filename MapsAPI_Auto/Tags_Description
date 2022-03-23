@@ -1,0 +1,9 @@
+This file explains tags used in framework
+@APITest-- Tells test is an API Test
+@NoneAPITest-- Opposite of first one
+@Regression-- Added for Regression tests
+@Smoke-- Added for test to be smoke
+@ProdSafe-- Can be executed even in PROD
+@NotProdSafe- To be executed in lower environments
+Feature level- Tags added at feature level
+User story- Feature file scenarios should be tagged with User story numbers to denote scenario relates to which User story

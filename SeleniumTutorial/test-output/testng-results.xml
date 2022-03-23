@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[===========Start Application=============]]>
+    </line>
+    <line>
+      <![CDATA[============Aplication Started===========]]>
+    </line>
+    <line>
+      <![CDATA[============Element exist==============]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32971" started-at="2021-05-23T13:04:19Z" finished-at="2021-05-23T13:04:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32971" started-at="2021-05-23T13:04:19Z" finished-at="2021-05-23T13:04:52Z">
+      <class name="com.BaseClassDemo.MainClass">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.BaseClassDemo.MainClass@2a70948e]" name="SetUp" is-config="true" duration-ms="28627" started-at="2021-05-23T18:34:19Z" finished-at="2021-05-23T18:34:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===========Start Application=============]]>
+            </line>
+            <line>
+              <![CDATA[============Aplication Started===========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TestMutipleWindows()[pri:0, instance:com.BaseClassDemo.MainClass@2a70948e]" name="TestMutipleWindows" duration-ms="3045" started-at="2021-05-23T18:34:48Z" description="Test to verify base class" finished-at="2021-05-23T18:34:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============Element exist==============]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestMutipleWindows -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.BaseClassDemo.MainClass@2a70948e]" name="closeApp" is-config="true" duration-ms="1263" started-at="2021-05-23T18:34:51Z" finished-at="2021-05-23T18:34:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.BaseClassDemo.MainClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
